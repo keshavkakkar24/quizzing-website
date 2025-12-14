@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.btn, a.btn-logout, .btn-action, .btn-delete {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 2px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.btn, .btn-action {
+    background-color: #4CAF50;
+}
+button.btn:hover, .btn-action:hover {
+    background-color: #45a049;
+}
+
+a.btn-logout {
+    background-color: #f44336;
+}
+a.btn-logout:hover {
+    background-color: #d32f2f;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+.btn-delete:hover {
+    background-color: #d32f2f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu {
+    margin-bottom: 15px;
+}
